@@ -13,5 +13,6 @@ public class StringWrapperTest {
 	@Test
 	public void oneCharacterStirngShouldReturnSameCHaracter() throws Exception {
 		assertThat(StringWrapper.wrap("a"), is(equalTo("a")));
+		// blabla
 	}
 }
